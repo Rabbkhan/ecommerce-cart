@@ -17,6 +17,11 @@ const Header = () => {
     <div className={classes.banner}>
 <img src={banner}/>
     </div>
+    <div className={classes.card}>
+        <h3 className={classes.h3}>Delicious Food, Delivered To You</h3>
+        <p>Choose your favorite meal from our broad selection of avaible meals and enjoy a Delicious lunch or dinner at home .</p>
+        <p>Choose your favorite meal from our broad selection of avaible meals and enjoy a Delicious lunch or dinner at home .</p>
+    </div>
     </Fragment>
      )
 }
