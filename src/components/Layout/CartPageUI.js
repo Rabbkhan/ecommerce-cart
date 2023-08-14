@@ -32,7 +32,13 @@ const CartPageUI = () => {
         <h1>{item.title}</h1>
         <p>{item.description}</p>
         <p className={carddesign.dollar}>{item.price}</p>
+        <form className={carddesign.formdesign}>
+          <label  htmlFor ="amount"><b>Amount &nbsp;</b></label>
+          <input className={carddesign.number} type='number' value={1}/><br/>
+          <button className={carddesign.btn}type='button'>+Add</button>
+        </form>
 <hr></hr>
+
          </li>
         ))}
     </div>

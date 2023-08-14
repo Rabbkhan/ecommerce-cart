@@ -18,3 +18,20 @@
 .listing{
     list-style: none;
 }
+.formdesign{
+    text-align: right;
+    position: relative;
+    top: -133px;
+}
+.number{
+    width: 60px;
+    text-align: center;
+}
+.btn{
+    text-align: center;
+    background: #631d1d;
+    color: white;
+    width: 59px;
+    height: 23px;
+    cursor: pointer;
+}
