@@ -10,9 +10,9 @@ const Header = () => {
 <div className={classes.logo}>
     ReacMeals
 </div>
-<div className='cart'>
+<button className={classes.cart}>
     Your cart {cart}
-</div>
+</button>
     </header>
     <div className={classes.banner}>
 <img src={banner}/>
