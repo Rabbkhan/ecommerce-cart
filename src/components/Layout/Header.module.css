@@ -1,0 +1,18 @@
+body{
+    background: white;
+}
+header{
+    padding: 5px 50px 1px 30px;
+    display: flex;
+    justify-content: space-around;
+    background: lightblue;
+    height: 40px;
+    text-align: center;
+    align-items: center;
+    gap:180px;
+}
+.banner img{
+    width: 100%;
+    background: center no-repeat cover;
+    height: 500px;
+}
