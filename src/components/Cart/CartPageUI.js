@@ -1,5 +1,6 @@
 import React, { Fragment } from 'react'
 import carddesign from './CartPageUI.module.css'
+
 const CartPageUI = () => {
   const dummy = [
     {
@@ -10,15 +11,15 @@ const CartPageUI = () => {
   },
     {
     id:2,
-  title:'sushi',
-  description:'Finest Fish and Veggies',
-  price : '$22.99'
+  title:'biriyani',
+  description:'Finest met and rice',
+  price : '$21.99'
   },
     {
     id:3,
-  title:'sushi',
-  description:'Finest Fish and Veggies',
-  price : '$22.99'
+  title:'chicken kosa',
+  description:'Finest met and rice',
+  price : '$24.99'
   }
 ]
   return (
@@ -34,10 +35,10 @@ const CartPageUI = () => {
         <p className={carddesign.dollar}>{item.price}</p>
         <form className={carddesign.formdesign}>
           <label  htmlFor ="amount"><b>Amount &nbsp;</b></label>
-          <input className={carddesign.number} type='number' value={1}/><br/>
+          <input className={carddesign.number} type='number' min={1} max={5} /><br/>
           <button className={carddesign.btn}type='button'>+Add</button>
         </form>
-<hr></hr>
+        <hr></hr>
 
          </li>
         ))}

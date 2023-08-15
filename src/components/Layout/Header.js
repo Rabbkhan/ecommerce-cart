@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react'
 import classes from  './Header.module.css'
-import banner from '../../images/banner.jpg'
+import Banner from '../../images/banner.jpg'
 const cart= '0';
 const Header = () => {
 
@@ -8,14 +8,14 @@ const Header = () => {
     <Fragment>
 <header className={classes.header}>
 <div className={classes.logo}>
-    ReacMeals
+    ReactMeals
 </div>
 <button className={classes.cart}>
     Your cart {cart}
 </button>
     </header>
     <div className={classes.banner}>
-<img src={banner}/>
+<img src={Banner} alt='banenr'/>
     </div>
     <div className={classes.card}>
         <h3 className={classes.h3}>Delicious Food, Delivered To You</h3>
