@@ -1,11 +1,12 @@
 
 import Header from "./components/Layout/Header";
-import Cart from "./components/Cart/cart";
 import CartPageUI from "./components/Cart/CartPageUI";
+import Cart from "./components/Cart/cart";
+
 function App() {
   return (
     <div>
-<Cart/>
+      {/* <Cart/> */}
 <Header/>
 <CartPageUI/>
     </div>
