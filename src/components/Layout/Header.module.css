@@ -1,26 +1,30 @@
 body{
-    background: rgb(67, 62, 62);
+    background: #151313c2;;
 }
 header{
     padding: 5px 50px 1px 30px;
     display: flex;
     justify-content: space-around;
-    background: lightblue;
-    height: 60px;
+    background: #5f2421;
+    height: 80px;
     text-align: center;
     align-items: center;
     gap: 180px;
     position: fixed;
     width: 100%;
     z-index: 10;
+    color: white;
 }
 .cart{
-    background-color: aquamarine;
+    background-color: #131212c2;
+    color: white;
     padding: 10px;
+    width: 135px;
+    height: 46px;
     outline: none;
     border: none;
     box-shadow: 1px 2px 8px rgb(20, 12, 12);
-    cursor:pointer;
+    cursor: pointer;
 }
 .cart:hover{
     transform: translateY(-5px);

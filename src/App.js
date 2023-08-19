@@ -1,15 +1,15 @@
 
 import Header from "./components/Layout/Header";
 import CartPageUI from "./components/Cart/CartPageUI";
-import Cart from "./components/Cart/cart";
+// import Cart from "./components/Cart/cart";
+import CartProvider from "./components/context/CartProvider";
 
 function App() {
   return (
-    <div>
-      {/* <Cart/> */}
-<Header/>
-<CartPageUI/>
-    </div>
+    <CartProvider>
+    <Header/>
+    <CartPageUI/>
+    </CartProvider>
   );
 }
 
